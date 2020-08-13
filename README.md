@@ -1,5 +1,5 @@
 # himanshu-goyal
+import math
 r=int(input())
-pi=3.14
-A=pi*r*r
+A=math.pi*r*r
 print(A)
