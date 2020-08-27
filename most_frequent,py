@@ -1,0 +1,12 @@
+# himanshu-goyal
+import operator
+def most_frequent(str):
+    d=dict()
+    for i in str:
+        if i not in d:
+            d[i]=1
+        else:
+            d[i]+=1
+    var=sorted(d.items(),key=operator.itemgetter(1),reverse=True)
+    print(var)
+most_frequent('mississippi')
